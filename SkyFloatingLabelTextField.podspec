@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.authors = "Daniel Langh, Gergely Orosz, Raimon Lapuente"
   s.ios.deployment_target = "8.0"
   s.source = { :git => "https://github.com/Skyscanner/SkyFloatingLabelTextField.git", :tag => "v#{s.version}" }
+  s.static_framework = true
   s.source_files = 'Sources/*.swift'
 end
